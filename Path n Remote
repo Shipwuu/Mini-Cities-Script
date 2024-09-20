@@ -2,3 +2,12 @@ workspace.Plots.Shipuuwu.Objects.Building.Employer.Commercial.GreatEasternHotel4
 workspace.Plots.Shipuuwu.Objects.Building.Employer.Industrial
 workspace.Plots.Shipuuwu.Objects.Building.Employer.Commercial
 workspace.Plots.Shipuuwu.Objects.Building.Employer.Industrial.LargeAmericanFactory495
+
+
+local args = {
+    [1] = "delivery",
+    [2] = workspace.Plots.Shipuuwu.Objects.Building.Employer.Industrial.LargeModernFactory1196,
+    [3] = workspace.Plots.Shipuuwu.Objects.Building.Employer.Commercial.LockBankTower620
+}
+
+game:GetService("ReplicatedStorage").Events.TransferResources:FireServer(unpack(args))
